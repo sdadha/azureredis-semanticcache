@@ -1,2 +1,2 @@
 # azureredis-semanticcache
-This repo contains code to showcase the semantic caching capabilities available in Azure Redis
+This repo contains code to showcase the semantic caching capabilities available in Azure Redis. To run this code you will need to create an Azure OpenAI instance and create model deployments that are capable of handling Chat completions and Embedding API Calls. Additionally you will need to create either an Azure Managed Redis Instance or Azure Cache for Redis Enterprise instance of "Enterprise" sku with "RediSearch" moodule enabled. 
